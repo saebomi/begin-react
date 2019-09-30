@@ -1,9 +1,14 @@
 import React from 'react';
-import Hello from './Hello'
-import './App.css'
+import Counter from './Counter';
+//import Hello from './Hello'
+//import './App.css'
 
 function App() {
-  const name='react';
+  return(
+    <Counter />
+  );
+}
+ /* const name='react';
   const style = {
     backgroundColor: 'black',
     color:'aqua',
@@ -16,8 +21,7 @@ function App() {
       <div style={style}>{name}</div>
       <div className="gray-box"></div>
     </>
-   );
-}
+   );*/
 
 export default App;
 
