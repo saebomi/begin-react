@@ -7,7 +7,8 @@ import Wrapper from './Wrapper';
 function App() {
   return(
     <Wrapper>
-    <Hello name="react" color="red"/>
+    <Hello name="react" color="red" isSpecial={true}/>
+    {/* isSpecial 이름만 넣어주면 isSpecial={true} 와 동일한 의미 */}
     <Hello color="pink"/>
     </Wrapper>
   );
