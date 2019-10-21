@@ -33,3 +33,4 @@
 
 ### useRef 로 특정 DOM 선택하기
 - ref - 사용할 때에는 useRef 라는 Hook 함수를 사용
+- useRef() - Ref 객체를 만들고, 이 객체를 우리가 선택하고 싶은 DOM에 ref 값으로 설정해주어야 함
