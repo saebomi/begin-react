@@ -41,11 +41,11 @@
 
 ### useRef 로 컴포넌트 안의 변수 만들기
 - useRef 를 사용하여 다음과 같은 값 관리할 수 있음
-> setTimeout, setInterval 을 통해서 만들어진 id
-> 외부 라이브러리를 사용하여 생성된 인스턴스
-> scroll 위치
+- > setTimeout, setInterval 을 통해서 만들어진 id
+- > 외부 라이브러리를 사용하여 생성된 인스턴스
+- > scroll 위치
 
 ### 배열에 항목추가하기
 - 배열에 변화를 줄 때 > 불변성을 지켜주어야 함
-> spread 연산자 사용 
-> concat 함수 사용
+- > spread 연산자 사용 
+- > concat 함수 사용
