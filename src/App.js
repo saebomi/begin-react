@@ -55,7 +55,7 @@ function App() {
   });
   nextId.current +=1;
   };
-  
+
   return (
     <>
     <CreateUser 
@@ -79,6 +79,5 @@ function App() {
     <InputSample />
   );
 }*/
-   
 export default App;
 
