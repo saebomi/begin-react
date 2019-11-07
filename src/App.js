@@ -48,14 +48,14 @@ function App() {
       username,
       email
   };
-  setUsers(users.concat(user));
+  setUsers(users => users.concat(user));
 
   setInputs({
       username: '',
       email: ''
     });
     nextId.current +=1;
-  }, [users, username, email]);
+  }, [username, email]);
 
   const onRemove = useCallback(
     id =>{
